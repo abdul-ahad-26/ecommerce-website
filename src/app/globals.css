@@ -25,3 +25,49 @@ body {
     text-wrap: balance;
   }
 }
+
+
+
+.top-header{
+  height: 48px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #FAFAFA;
+  background-color: #000000;
+  font-size: 14px;
+}
+
+.top-header .promo-banner{
+  width: 860px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-header .shopnow{
+  
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.top-header .promotion{
+  display: flex;
+  gap: 10px;
+}
+
+.top-header .language-selector{
+  display: flex;
+  background-color: #000000;
+  gap: 4px;
+  align-items: center;
+}
+
+.top-header .dropdown{
+  object-fit: contain;
+    
+    width: 16px;
+    height: 16px;
+}
+
+
